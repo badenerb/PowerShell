@@ -11,7 +11,7 @@ Set-Location $DESKPATH
 if(!(Test-Path -Path ".\$FILENAME"))
 {
     Write-Host "Ensure the Varonis output file, $FILENAME, is on your desktop or exists"
-    read-hos
+    read-host
     exit
 }
 
